@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 
 export const axiosInst : AxiosInstance = axios.create({
-    baseURL : "http://localhost:5000/api/market/",
+    baseURL : "https://nft.bclh.link/api/market/",
     withCredentials: true,
     responseType: "json",
     timeout: 10000000,
